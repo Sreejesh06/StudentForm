@@ -40,7 +40,7 @@ app.post("/students", async (req, res) => {
   }
 });
 
-//  UPDATE student details
+// UPDATE student details
 app.put("/students/:id", async (req, res) => {
   try {
     const updatedStudent = await Student.findByIdAndUpdate(req.params.id, req.body, { new: true });
