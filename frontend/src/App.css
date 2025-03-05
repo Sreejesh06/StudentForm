@@ -1,0 +1,75 @@
+/* ✅ Apply Background */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("https://images.unsplash.com/photo-1614851099511-773084f6911d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center center/cover;
+  color: #f0f0f0; /* ✅ Light font for contrast */
+}
+
+/* ✅ Glassmorphism Container */
+.glass-container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 15px;
+  padding: 20px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  color: #ffffff; /* ✅ Ensures text remains readable */
+}
+
+/* ✅ Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff; /* ✅ Light text */
+}
+
+input::placeholder {
+  color: #cce7ff; /* ✅ Soft Blue Placeholder */
+}
+
+button {
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #ffd700; /* ✅ Gold text */
+  font-weight: bold;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* ✅ Student List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  margin: 6px 0;
+  font-size: 18px;
+  color: #a7f3d0; /* ✅ Light cyan for elegance */
+}
